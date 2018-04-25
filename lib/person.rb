@@ -15,3 +15,14 @@ class Person
     @job
   end
 end
+
+
+class Dog
+  def name=(dog_name)
+    @your_dog_name = dog_name
+  end
+
+  def name
+    @your_dog_name
+  end
+end
